@@ -14,8 +14,9 @@
     PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS="notebook" HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop MASTER=yarn-client pyspark
     ```
     
-![[jupyter啟動.png]]
-![[Spark啟動.png]]
+![jupyter啟動.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/jupyter%E5%95%9F%E5%8B%95.png)
+
+![Spark啟動.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/Spark%E5%95%9F%E5%8B%95.png)
 
 ### (一)、Hadoop環境安裝設定(含重點)
 
@@ -470,9 +471,9 @@ usermaster、userdata1、userdata2
 環境變數設定
 sudo vi ~/.bashrc
 ```
-![[usermaster.png]]
-![[usermaster_2.png]]
-![[usermaster_3.png]]
+![usermaster.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/usermaster.png)
+![usermaster_2.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/usermaster_2.png)
+![usermaster_3.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/usermaster_3.png)
 
 ```bash
 usermaster、userdata1、userdata2
@@ -480,16 +481,16 @@ core-site.xml設定
 sudo vi /usr/local/hadoop/etc/hadoop/hadoop-env.sh
 ```
 
-![[env.png]]
+![env.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/env.png)
 
 ```bash
 usermaster、userdata1、userdata2
 core-site.xml設定
 sudo vi /usr/local/hadoop/etc/hadoop/core-site.xml
 ```
-![[core-site-1.png]]
-![[core-site-2.png]]
-![[core-site-3.png]]
+![core-site-1.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/core-site-1.png)
+![core-site-2.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/core-site-2.png)
+![core-site-3.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/core-site-1.png)
 
 ```bash
 usermaster、userdata1、userdata2
@@ -497,9 +498,9 @@ yarn-site.xml設定
 sudo vi /usr/local/hadoop/etc/hadoop/yarn-site.xml
 ```
 
-![[yarn-site-1.png]]
-![[yarn-site-2.png]]
-![[yarn-site-3.png]]
+![yarn-site-1.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/yarn-site-1.png)
+![yarn-site-2.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/yarn-site-2.png)
+![yarn-site-3.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/yarn-site-3.png)
 
 ```bash
 usermaster、userdata1、userdata2
@@ -507,9 +508,9 @@ mapred-site.xml設定
 sudo vi /usr/local/hadoop/etc/hadoop/mapred-site.xml
 ```
 
-![[yarn-site-1.png]]
-![[mapred-site-2.png]]
-![[mapred-site-3.png]]
+![mapred-site-1.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/mapred-site-1.png)
+![mapred-site-2.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/mapred-site-2.png)
+![mapred-site-3.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/mapred-site-3.png)
 
 ```bash
 usermaster、userdata1、userdata2
@@ -517,9 +518,9 @@ hdfs-site.xml設定
 sudo vi /usr/local/hadoop/etc/hadoop/hdfs-site.xml
 ```
 
-![[hdfs-site-1.png]]
-![[hdfs-site-2.png]]
-![[hdfs-site-3.png]]
+![hdfs-site-1.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/hdfs-site-1.png)
+![hdfs-site-2.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/hdfs-site-2.png)
+![hdfs-site-3.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/hdfs-site-3.png)
 
 ```bash
 usermaster、userdata1、userdata2
@@ -527,7 +528,7 @@ usermaster、userdata1、userdata2
 sudo vi /etc/network/interfaces
 ```
 
-![[interfaces-1.png]]
+![interfaces-1.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/interfaces-1.png)
 
 ```bash
 usermaster、userdata1、userdata2
@@ -535,7 +536,7 @@ usermaster、userdata1、userdata2
 sudo vi /etc/hostname
 ```
 
-![[hostname.png]]
+![hostname.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/hostname.png)
 
 ```bash
 usermaster、userdata1、userdata2
@@ -543,7 +544,7 @@ usermaster、userdata1、userdata2
 sudo vi /etc/hosts
 ```
 
-![[hosts-1.png]]
-![[hosts-2.png]]
-![[hosts-3.png]]
+![hosts-1.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/hosts-1.png)
+![hosts-2.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/hosts-2.png)
+![hosts-3.png](https://github.com/Axel1227/Hadoop_Yanr_Spack-/blob/main/img/hosts-3.png)
 
